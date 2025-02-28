@@ -3,9 +3,29 @@ import packages.informationPage;
 
 public class Main {
 
-    public static void main(String[] args) {
+}
+    public class Main {
+
+        static class CustomFont {
+            private Font font;
+
+            public CustomFont() {
+                this.font = new Font("Arial", Font.BOLD, 14);
+            }
+
+            public Font getFont() {
+                return font;
+            }
+
+            public void setFont(Font font) {
+                this.font = font;
+            }
+        }
+
+
+        public static void main(String[] args) {
         // Create and configure the main frame
-        JFrame frame = new JFrame("فرم نظرسنجی");
+        JFrame frame = new JFrame("poll form");
         frame.setSize(600, 600);
         frame.setLocationRelativeTo(null);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -16,13 +36,17 @@ public class Main {
         panel.setLayout(null);
         panel.setBounds(0, 0, 600, 600);
 
+        CustomFont customFont = new CustomFont();
+
         // Create title label
-        JLabel title = new JLabel("فرم نظرسنجی");
+        JLabel title = new JLabel("poll form");
         title.setBounds(10, 10, 100, 20);
+        title.setFont(customFont.getFont());
 
         // Create start button
-        JButton startButton = new JButton("شروع!");
+        JButton startButton = new JButton("start!");
         startButton.setBounds(10, 40, 100, 20);
+        startButton.setFont(customFont.getFont());
 
         // Add components to the panel
         panel.add(title);
