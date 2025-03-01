@@ -13,27 +13,28 @@ public class informationPage {
 
         // Name Label and Text Field
         JLabel nameLabel = new JLabel("name");
-        nameLabel.setFont(font);
+
         nameLabel.setBounds(10, 10, 100, 20);
         JTextField nameField = new JTextField(15);
         nameField.setBounds(50, 10, 100, 20);
 
         // Age Label and Text Field
         JLabel ageLabel = new JLabel("age");
-        ageLabel.setFont(font);
+
         ageLabel.setBounds(10, 50, 100, 20);
         JTextField ageField = new JTextField(15);
         ageField.setBounds(50, 50, 100, 20);
 
         // Email Label and Text Field
         JLabel emailLabel = new JLabel("email");
-        emailLabel.setFont(font);
+
         emailLabel.setBounds(10, 90, 100, 20);
         JTextField emailField = new JTextField(15);
         emailField.setBounds(50, 90, 100, 20);
 
         // Software Familiarity Level
         JLabel levelLabel = new JLabel("Level of familiarity with similar software");
+
         levelLabel.setFont(font);
         levelLabel.setBounds(10, 130, 250, 20);
 

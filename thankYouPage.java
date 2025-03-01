@@ -14,6 +14,7 @@ public class thankYouPage {
 
         // Create thank you label
         JLabel thankYouLabel = new JLabel("Thanks for your participation!");
+
         thankYouLabel.setFont(font);
         thankYouLabel.setBounds(10, 10, 200, 20);
 
