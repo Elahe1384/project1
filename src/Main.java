@@ -1,10 +1,11 @@
+package packages.src;
+
 import javax.swing.*;
-import packages.informationPage;
+import packages.src.packages.*;
+import java.awt.*;
+
 
 public class Main {
-
-}
-    public class Main {
 
         static class CustomFont {
             private Font font;

@@ -1,5 +1,6 @@
-package packages;
+package packages.src.packages;
 
+import java.awt.*;
 import javax.swing.*;
 
 public class thankYouPage {

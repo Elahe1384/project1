@@ -1,11 +1,13 @@
-package packages;
+package packages.src.packages;
+
+import java.awt.*;
 
 import javax.swing.*;
 
 public class informationPage {
-    ّFont font = new Font("Arial", Font.BOLD, 14);
 
     public void create(JFrame frame) {
+        Font font = new Font("Arial", Font.BOLD, 14);
         // Create the main panel
         JPanel panel = new JPanel();
         panel.setBounds(0, 0, 600, 600);
