@@ -10,11 +10,14 @@ public class thankYouPage {
 
         // Create and configure the panel
         JPanel panel = new JPanel();
-        panel.setLayout(null);
+        panel.setLayout(new BorderLayout());
+        panel.setBackground(Color.YELLOW);
         panel.setBounds(0, 0, 600, 600);
 
         // Create thank you label
         JLabel thankYouLabel = new JLabel("Thanks for your participation!");
+        thankYouLabel.setHorizontalAlignment(SwingConstants.CENTER);
+        thankYouLabel.setVerticalAlignment(SwingConstants.CENTER);
 
         thankYouLabel.setFont(font);
         thankYouLabel.setBounds(10, 10, 200, 20);
