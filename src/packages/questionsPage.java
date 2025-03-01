@@ -11,6 +11,7 @@ public class questionsPage {
         panel.setBounds(0, 0, 600, 600);
         panel.setBackground(Color.YELLOW);
         panel.setLayout(new BoxLayout(panel, BoxLayout.PAGE_AXIS));
+        panel.add(Box.createRigidArea(new Dimension(10, 10)));
 
         // Question 1
         JLabel question1 = new JLabel("How attractive do you find the software's user interface?");
